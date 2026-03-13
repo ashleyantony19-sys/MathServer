@@ -96,6 +96,7 @@ h2{ color:red; }
 <body>
 <div class="box">
 <h2>TOTAL BILL AMOUNT</h2>
+<h3>Ashley Antony ( 25016569 )</h3>
 
 <form method="POST">
 {% csrf_token %}
@@ -117,14 +118,14 @@ Total:<br>
 </body>
 </html>
 
-
 ```
 
 ## OUTPUT - SERVER SIDE:
-![alt text](<Screenshot 2026-02-27 141430.png>)
+![alt text](<Screenshot 2026-03-13 142955.png>)
 
 ## OUTPUT - WEBPAGE:
-![alt text](<Screenshot 2026-02-27 141333.png>)
+
+![alt text](<Screenshot 2026-03-13 142925.png>)
 
 ## RESULT:
 The a web page to calculate total bill amount with GST from price and GST percentage using server-side scripts is created successfully.
